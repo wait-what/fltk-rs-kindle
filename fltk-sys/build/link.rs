@@ -173,7 +173,7 @@ pub fn link(target_os: &str, target_triple: &str, out_dir: &Path) {
                     println!("cargo:rustc-link-lib=dylib=X11");
                     println!("cargo:rustc-link-lib=dylib=Xext");
                     println!("cargo:rustc-link-lib=dylib=Xinerama");
-                    println!("cargo:rustc-link-lib=dylib=Xcursor");
+                    // println!("cargo:rustc-link-lib=dylib=Xcursor");
                     println!("cargo:rustc-link-lib=dylib=Xrender");
                     println!("cargo:rustc-link-lib=dylib=Xfixes");
                     println!("cargo:rustc-link-lib=dylib=Xft");

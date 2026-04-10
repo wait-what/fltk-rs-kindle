@@ -175,6 +175,7 @@ pub fn build(manifest_dir: &Path, target_triple: &str, out_dir: &Path) {
             .define("FLTK_OPTION_LARGE_FILE", "ON")
             .define("FLTK_BUILD_HTML_DOCS", "OFF")
             .define("FLTK_BUILD_PDF_DOCS", "OFF")
+            .define("FLTK_USE_XCURSOR", "OFF")
             .build();
 
         println!(
